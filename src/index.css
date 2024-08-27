@@ -1,0 +1,210 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Navigation styles */
+
+
+.navigation {
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation-headings {
+  padding: 10px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+/* End */
+
+/* Earning Start */
+.earn {
+  display: grid;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  padding: 20px;
+  overflow-x: hidden;
+  z-index: 50;
+}
+.heading {
+  margin-left: 25px;
+  margin: 5px 0;
+}
+.booster-section {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.booster-header {
+  line-height: 0.5px;
+  text-align: center;
+}
+.total-shares {
+  font-size: 3.5rem;
+  color: gold;
+  padding: 4px;
+  text-shadow: 5px 2px 20px;
+}
+.booster-items  button {
+  margin: 3px;
+  padding: 10px;
+  width: 45%;
+  color: whitesmoke;
+  font-weight: bolder;
+  border-radius: 5px;
+  border: none;
+  background-color: #05215c;
+}
+
+.booster-item {
+  display: flex;
+  margin-top: 5px;
+}
+
+.icon {
+  align-self: center;
+  margin-left: 15px;
+}
+.booster-items-line {
+  margin: 2px;
+}
+.boost-item-detail  {
+  line-height: 0.3px;
+  width: 500px;
+  padding: 10px;
+  padding-right: 40%;
+  margin-left: 15px;
+  background-color: orange;
+}
+
+
+/* End  */
+
+/* Home Start */
+.homepage {
+  display: grid;
+  width: auto;
+  height: 600px;
+  place-items: center;
+}
+.main {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr auto 1fr;
+}
+
+.home-links {
+  max-width: 200px;
+  max-height: 50px;
+  border: none;
+  padding: 10px;
+  font-size: 1.2rem;
+  color: whitesmoke;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #15409e;
+}
+
+.coin-section {
+  display: grid;
+  place-items: center;  
+  margin: 5px 0;
+  padding: 5px;
+}
+
+.coin-image {
+  min-width: 200px;
+  height: auto;
+}
+
+.progress-bar {
+  margin: 20px 0;
+  padding: 15px;  
+}
+.back-btn {
+  color: white;
+  background-color: gold;
+}
+/* Clicking Item */
+.tap-item-container {
+  padding: 10px;
+  border-radius: 50px;
+  border: 5px solid aqua;
+}
+.parent {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  border-radius: 100px;
+  background-color: aqua;
+}
+.child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 115px;
+  height: 115px;
+  border-radius: 100px;
+  animation: RotateCircle 8s ease 1s infinite both normal;
+  background-color: #2a4242ea;
+}
+.instruction-text {
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  color: gold;
+  text-align: center;
+}
+@keyframes RotateCircle {
+  0% { top: 0;}
+  25%{ top: 15px;
+       left: 30px; }
+  50% { top: 37px }
+  70% { top: 37px; left: 28px; }
+  to { transform: rotate(360deg);}
+}
+
+/* Home End */
+
+/* Modal Start */
+.main-body {
+  display: grid;
+  place-items: center;
+  margin-top: 120px;
+}
+.confirm-btn {
+  border: none;
+  padding: 10px;
+  font-weight: bolder;
+  color: whitesmoke;
+  background-color: #15409e;
+}
+/* End */
+
+/* Spin Wheel Start */
+.spin-wheel {
+  width: 10px;
+  height: auto;
+}
+
+
+
+
+
+
+
+
